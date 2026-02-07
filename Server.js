@@ -9,7 +9,7 @@ const foodRoutes = require("./src/Routes/foodRoutes")
 const contactRoutes = require("./src/Routes/contactRoutes")
 const userRoutes = require("./src/Routes/userRoutes")
 
-app.use(cors())
+app.use(cors({ origin: "*" }))
 app.use(express.json())
 
 db()
