@@ -24,7 +24,7 @@ app.use("/hotels", hotelRoutes)
 app.use("/foods", foodRoutes)
 app.use("/contacts", contactRoutes)
 
-const PORT = 5000
-app.listen(PORT, () => {
-  console.log(`Server started at ${PORT}`)
+
+app.listen(5000,"0.0.0.0", () => {
+  console.log(`Server started at 5000`)
 })

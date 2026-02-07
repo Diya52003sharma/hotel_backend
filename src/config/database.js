@@ -2,7 +2,7 @@ const mongoose=require('mongoose')
 const connectDB=async()=>
 {
     try{
-        await mongoose.connect('mongodb://localhost:27017/hotel')
+        await mongoose.connect('mongodb+srv://diya:5112003@food.bgm0i8m.mongodb.net/')
         console.log("DATABASE CONNECTED");
     }
     catch(err)
